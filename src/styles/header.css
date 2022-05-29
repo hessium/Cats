@@ -1,0 +1,35 @@
+.main-header {
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    background-color: #2196F3;
+}
+
+.header-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.navbar__links {
+    margin-right: auto;
+}
+
+.navbar__links a {
+    color: white;
+    text-decoration: none;
+    padding: 22px;
+    font-size: 18px;
+}
+
+.navbar__links a:hover {
+    background-color: #1E88E5;
+}

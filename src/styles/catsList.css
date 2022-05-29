@@ -1,0 +1,41 @@
+.cats-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+
+.cat {
+    width: 225px;
+    height: 225px;
+    position: relative;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.heart {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    right: 20px;
+    bottom: 20px;
+    background: url('../img/icons/Heart.svg')  center center / contain no-repeat;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.cat:hover .heart {
+    opacity: 1;
+}
+
+.cat:hover {
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.24), 0 9px 18px rgba(0, 0, 0, 0.18);
+}
+
+.heart:hover {
+    background: url('../img/icons/HoveredHeart.png') center center / contain no-repeat;
+}
+
+.heart.active {
+    background: url('../img/icons/ClickedHeart.png')  center center / contain no-repeat;
+}
