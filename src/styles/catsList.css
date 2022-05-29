@@ -26,10 +26,12 @@
 
 .cat:hover .heart {
     opacity: 1;
+    
 }
 
 .cat:hover {
     box-shadow: 0 6px 5px rgba(0, 0, 0, 0.24), 0 9px 18px rgba(0, 0, 0, 0.18);
+    transform: scale(1.1);
 }
 
 .heart:hover {
