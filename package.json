@@ -29,7 +29,7 @@
     "type": "git",
     "url": "git+https://github.com/hessium/Cats.git"
   },
-  "homepage": "https://hessium.github.io/Cats/",
+  "homepage": "https://github.com/hessium/Cats.git",
   "eslintConfig": {
     "extends": [
       "react-app",
