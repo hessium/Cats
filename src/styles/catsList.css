@@ -25,8 +25,7 @@
 }
 
 .cat:hover .heart {
-    opacity: 1;
-    
+    opacity: 1;  
 }
 
 .cat:hover {
