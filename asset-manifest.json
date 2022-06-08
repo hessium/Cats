@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Cats/static/css/main.d67facee.css",
+    "main.js": "/Cats/static/js/main.718eb27b.js",
+    "index.html": "/Cats/index.html",
+    "static/media/Heart.svg": "/Cats/static/media/Heart.6adfe85f8b98c6dc6b44.svg",
+    "main.d67facee.css.map": "/Cats/static/css/main.d67facee.css.map",
+    "main.718eb27b.js.map": "/Cats/static/js/main.718eb27b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d67facee.css",
+    "static/js/main.718eb27b.js"
+  ]
+}
